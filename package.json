@@ -2,7 +2,8 @@
   "name": "marriage-algorithms",
   "version": "0.1.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "private": true,
   "dependencies": {
     "@types/lodash": "^4.14.149",
