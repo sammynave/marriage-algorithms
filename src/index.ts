@@ -1,11 +1,13 @@
 import {
-    runManWomanProblem,
-    runHospitalsResidentsProblem,
-    runHospitalsResidentsWithoutCapacityProblem,
-} from './examples';
+  runManWomanProblem,
+  runHospitalsResidentsProblem,
+  runHospitalsResidentsWithoutCapacityProblem,
+} from "./examples";
+
+export { rothShapley } from "./algorithms";
 
 // Man-Woman marriage problem example
-runManWomanProblem();
+// runManWomanProblem();
 
 // Hospitals-Residents problem
 // runHospitalsResidentsProblem();
